@@ -2,8 +2,6 @@ import telebot
 from telebot import types
 from pixellib.instance import instance_segmentation
 import os
-token = "6095239590:AAGLodvJdqeE7EK-dfiFtZgsr8WtSwwd1-4"
-
 bot = telebot.TeleBot(token)
 #кнопки
 markup = types.InlineKeyboardMarkup(row_width=2)
